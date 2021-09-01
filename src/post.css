@@ -1,0 +1,59 @@
+.card-subtitle{
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+.fa-heart
+{
+  transform: rotateY(-180deg);
+  font-size: 2em;
+    color: red;
+    
+}
+.fa-comment{
+    font-size: 2em;
+    color: rgb(47, 0, 255);
+    padding-left: 2rem;
+}
+.fa-share{
+    font-size: 2em;
+    color: rgb(47, 0, 255);
+    padding-left: 2rem;
+}
+.fa-trash{
+    float: right;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+}
+.Countcomment
+{
+    color: blueviolet;
+}
+.Countlikes{
+    color: red;
+}
+.collapse-body{
+    width:26rem;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+.loader{
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .buttons{
+    float: right;
+  }
